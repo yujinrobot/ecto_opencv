@@ -16,7 +16,7 @@ if(NOT CMAKE_BUILD_TYPE)#Only do this the on the first run, if the build type ha
       FORCE)
 endif()
 
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 2 REQUIRED)
 message(STATUS "OpenCV version: ${OpenCV_VERSION}")
 message(STATUS "OpenCV headers: ${OpenCV_INCLUDE_DIRS}")
 include_directories(SYSTEM ${OpenCV_INCLUDE_DIRS} ${catkin_INCLUDE_DIRS})
