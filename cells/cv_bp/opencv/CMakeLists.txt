@@ -1,4 +1,3 @@
-find_package(OpenCV REQUIRED core highgui)
 find_package(Boost COMPONENTS
   python
   REQUIRED

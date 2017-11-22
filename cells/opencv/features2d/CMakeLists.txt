@@ -13,7 +13,6 @@ ectomodule(features2d DESTINATION ecto_opencv/ecto_cells
   ransac_est.cpp
   )
 
-find_package(OpenCV REQUIRED)
 link_ecto(features2d ${catkin_LIBRARIES}
                      ${OpenCV_LIBRARIES}
 )
